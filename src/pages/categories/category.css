@@ -1,0 +1,50 @@
+.newCategory {
+    flex: 4;
+    padding: 15px;
+    margin-top: -25px
+}
+
+.newCategoryForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newCategoryItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newCategoryItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(151, 150, 150);
+}
+
+.newCategoryItem>input {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newCategorySelect {
+    height: 40px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.newCategoryButton {
+    width: 150px;
+    border: none;
+    background-color: teal !important;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
